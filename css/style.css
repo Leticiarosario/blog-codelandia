@@ -144,6 +144,6 @@ main .card {
 .card p {
     color: var(--text);
     font-family: LexendDeca-Regular;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 26px;
 }
