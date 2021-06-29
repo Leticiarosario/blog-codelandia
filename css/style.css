@@ -90,7 +90,7 @@ header {
 .search input::placeholder {
     color: var(--white);
     opacity: 0.5;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 main .container {
@@ -101,7 +101,7 @@ main .container {
     padding: 30px 10px;
 }
 
-main .card {
+main li {
     border: 1px solid var(--white);
     background-color: var(--white);
     width: 100%;
@@ -110,9 +110,11 @@ main .card {
     border-radius: 5px;
     line-height: 35px;
     margin: 0 auto;
+    list-style: none;
+    margin-bottom: 20px;
 }
 
-.card .title {
+li .title {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -121,28 +123,29 @@ main .card {
     line-height: 10px;
 }
 
-.card .title p {
+li.title p {
     color: var(--text);
     font-family: LexendDeca-Regular;
     font-size: 18px;
 }
 
-.card .title i {
+li .title i {
     color: var(--blue-dark);
+    padding-bottom: 20px;
 }
 
-.card .subtitle {
+li .subtitle {
     font-size: 1rem;
     color: var(--title);
     font-family: LexendDeca-Regular;
     font-weight: 400;
     font-size: 1.3rem;
-    padding: 15px 0 15px 0;
+    padding-bottom: 15px;
 }
 
-.card p {
+li p {
     color: var(--text);
     font-family: LexendDeca-Regular;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 26px;
 }
