@@ -96,7 +96,7 @@ header {
 main .container {
     display: flex;
     justify-content: center;
-    margin: 100px auto;
+    margin: 50px auto;
     gap: 20px;
     padding: 30px 10px;
 }
